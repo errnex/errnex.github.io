@@ -1,0 +1,1 @@
+{"tag": "payRequest", "callback": "https://webhook.site/5aa4e996-21dc-4f53-8c94-2a721ce7e9ef/api/uma/request_pay_invoice", "minSendable": 1000, "maxSendable": 1000000000, "metadata": "[[\"text/plain\", \"Pay attacker\"]]", "commentAllowed": 0}
