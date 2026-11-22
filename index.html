@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><title>L39 W1 test VASP</title></head><body>
+<h1>Lightspark round 39 / W1 — test VASP (security research)</h1>
+<p>This host serves UMA counterparty endpoints used ONLY to test whether
+Lightspark's hosted UMA service fetches attacker-controlled counterparty URLs,
+from the researcher's own test-mode accounts, under the Lightspark Intigriti
+bug-bounty program rules. No real payments, no real users.</p>
+<ul>
+<li>GET /.well-known/lnurlpubkey — fake secp256k1 generator-point pubkeys</li>
+<li>GET /.well-known/uma-configuration — uma_request_endpoint points at a
+webhook.site canary that logs requests and returns a canary-marked invoice</li>
+<li>GET /.well-known/lnurlp/attacker — LNURLP payRequest, callback = same canary</li>
+</ul>
+<p>Canary token: L39W1-CANARY-7f3a9c21. Webhook log:
+https://webhook.site/#!/view/5aa4e996-21dc-4f53-8c94-2a721ce7e9ef</p>
+</body></html>
