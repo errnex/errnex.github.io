@@ -1,0 +1,1 @@
+{"uma_major_version": 1, "uma_minor_version": 0, "uma_request_endpoint": "https://webhook.site/5aa4e996-21dc-4f53-8c94-2a721ce7e9ef/api/uma/request_pay_invoice", "uma_supported_major_versions": [0, 1], "currencies": [{"code": "USD", "name": "US Dollar", "symbol": "$", "minSendable": 1, "maxSendable": 1000000, "multiplier": 1000, "decimals": 2}]}
